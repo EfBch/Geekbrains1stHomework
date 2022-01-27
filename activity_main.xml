@@ -6,71 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:layout_gravity="bottom"/>
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:text="@string/button"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="247dp"
-        android:layout_gravity="fill"/>
-
-    <TextView
+    <EditText
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginVertical="25dp"
-        android:text="I have no idea"
-        android:textSize="35dp"
-        android:layout_gravity="bottom"
-        android:fontFamily="cursive"
-        ></TextView>
+        android:inputType="number">
+
+    </EditText>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:inputType="textPersonName">
+
+        </EditText>
+
+
 
     <EditText
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_gravity="bottom">
-
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:inputType="text">
 
     </EditText>
 
-    <Switch
-        android:layout_width="45dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="-60dp"
-        >
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:inputType="phone">
 
+    </EditText>
 
-    </Switch>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="-400dp"
+        android:inputType="textPassword">
 
-    <ToggleButton
-        android:layout_width="50dp"
-        android:layout_height="60dp">
+    </EditText>
 
-    </ToggleButton>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="200dp"
+        android:inputType="textEmailAddress">
+
+    </EditText>
 
     <CalendarView
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:layout_gravity="center"
-        android:layout_marginStart="-300dp">
+        android:layout_marginStart="-400dp"
+        android:layout_gravity="bottom">
 
     </CalendarView>
 
-    <CheckBox
-        android:layout_width="70dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="-150dp"
-        ></CheckBox>
 
-
-
-
-
-    </LinearLayout>
+</LinearLayout>
